@@ -6,6 +6,7 @@ package com.cb.reflection.invacation;
  * @see
  * @since
  */
-public interface StoryInterface {
-    String tellStory(String name);
+public interface Person {
+    String sayHello(String content);
+    String sayGood(String content);
 }
